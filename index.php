@@ -7,11 +7,11 @@ include "header.php";
 
 ?>
 	<?php
-		if (isset($_SESSION['usrname'])) { ?>
+		if (!isset($_SESSION['usrname'])) { ?>
 			
 			<div class="row" style="padding-top: 15px;">
 			  <div class="medium-4 columns" style="padding-right: 10px;">
-					<div class="card" style="width: 320px;">
+					<div class="card">
 					  <div class="card-divider">
 					    <h4>I'm featured</h4>
 					  </div>
@@ -22,7 +22,7 @@ include "header.php";
 			  </div>
 
 			  <div class="medium-4 columns" style="padding-right: 10px;">
-			  	<div class="card" style="width: 320px;">
+			  	<div class="card">
 				  <div class="card-divider">
 				    <h4>I'm featured</h4>
 				  </div>
@@ -33,7 +33,7 @@ include "header.php";
 			  </div>
 
             <div class="medium-4 columns" style="padding-right: 10px;">
-                <div class="card" style="width: 320px;">
+                <div class="card">
                     <div class="card-divider">
                         <h4>I'm featured</h4>
                     </div>
@@ -49,12 +49,13 @@ include "header.php";
 
             ?>
             <div class="medium-6 medium-offset-3 column" style="padding-top: 2%;">
-            <div class="callout callout-hover-reveal medium-12" data-callout-hover-reveal>
+            <div class="callout callout-hover-reveal medium-12" data-callout-hover-reveal style="text-align: center;">
                 <div class="callout-body">
-                    <h2>NOT A MEMBER YET? <a data-open="login_register">Login/Register</a></h2>
+                    <h2>NOT A MEMBER YET? </h2>
                 </div>
                 <div class="callout-footer">
-                    <img src="img/minimal.jpg" alt=""/>
+                    <img src="img/minimal.jpg" alt="" style="text-align: center"><br>
+                    <h4 style="font-size: 1.5em;"><a data-open="login_register">Login/Register</a></h4>
                 </div>
             </div>
             </div>
