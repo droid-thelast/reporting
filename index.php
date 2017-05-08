@@ -3,7 +3,7 @@ session_start();
 
 //include 'conn.php';
 include "header.php";
-
+include "reg.php";
 
 ?>
 	<?php
@@ -28,6 +28,7 @@ include "header.php";
 				  </div>
 				  <div class="card-section">
 				    <p>This card makes use of the card-divider element.</p>
+                      <?php echo randomPassword() ; ?>
 				  </div>
 				</div>
 			  </div>
