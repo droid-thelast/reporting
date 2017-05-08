@@ -1,8 +1,9 @@
 
 <!-- This is the first modal -->
 <div class="reveal" id="login_register" data-reveal>
-    <h1>Register</h1>
+    <h2>Login</h2>
     <form>
+
         <label>USERNAME
             <input type="text" placeholder="Username" name="usrname">
         </label>
