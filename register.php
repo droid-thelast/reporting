@@ -8,7 +8,5 @@ include 'header.php';
 
 ?>
 
+<?php
 
-
-</body>
-</html>
