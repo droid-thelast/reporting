@@ -20,7 +20,7 @@
 	    <ul class="offcanvas-full-screen-menu">
 	      <li><a href="#">Home</a></li>
 	      <li><a data-open="login_register">Login</a></li>
-	      <li><a href="#">Services</a></li>
+	      <li><a href="#">Service</a></li>
 	      <li><a href="#">Contact us</a></li>
 	    </ul>
 	  </div>
@@ -28,8 +28,8 @@
 
 	<div class="off-canvas-content" data-off-canvas-content>
 	  <div class="top-bar">
-	    <div class="top-bar-title">
-	      <strong>Site Title</strong>
+	    <div class="top-bar-title hide-for-small-only">
+	      <strong>TRICOM SALES PORTAL</strong>
 	    </div>
 	    <div class="top-bar-right">
 	      <button class="menu-icon dark" type="button" data-toggle="offcanvas-full-screen"></button>

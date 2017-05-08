@@ -11,7 +11,7 @@ include "header.php";
 			
 			<div class="row" style="padding-top: 15px;">
 			  <div class="medium-4 columns" style="padding-right: 10px;">
-					<div class="card" style="width: 300px;">
+					<div class="card" style="width: 320px;">
 					  <div class="card-divider">
 					    <h4>I'm featured</h4>
 					  </div>
@@ -22,7 +22,7 @@ include "header.php";
 			  </div>
 
 			  <div class="medium-4 columns" style="padding-right: 10px;">
-			  	<div class="card" style="width: 300px;">
+			  	<div class="card" style="width: 320px;">
 				  <div class="card-divider">
 				    <h4>I'm featured</h4>
 				  </div>
@@ -33,7 +33,7 @@ include "header.php";
 			  </div>
 
             <div class="medium-4 columns" style="padding-right: 10px;">
-                <div class="card" style="width: 300px;">
+                <div class="card" style="width: 320px;">
                     <div class="card-divider">
                         <h4>I'm featured</h4>
                     </div>
