@@ -31,7 +31,7 @@
             <input type="text" placeholder="email" name="password">
         </label>
         <label>BRANCH
-            <select>
+            <select name="branch">
                 <option value="Boundless">Boundless</option>
                 <option value="Memorial">Memorial</option>
                 <option value="RonaldN">RonaldN</option>
